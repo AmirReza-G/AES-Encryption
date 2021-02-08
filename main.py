@@ -5,7 +5,7 @@ from webbrowser import open_new_tab
 import ctypes
 ctypes.windll.shcore.SetProcessDpiAwareness(1)
 window = Tk()
-window.iconbitmap(r'')
+window.iconbitmap(r'icon.ico')
 window.title(' AES file Encryption v2020.0.2 ')
 window.geometry('500x670')
 window.resizable(False , False)
